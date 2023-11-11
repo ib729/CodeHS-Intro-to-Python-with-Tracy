@@ -1,0 +1,18 @@
+Where does Tracy always start in the grid world?
+- At the (0,0) coordinate in the middle of the canvas
+
+What are the dimensions of Tracy’s world?
+- 400 pixels x 400 pixels
+
+Which commands would move Tracy forward 100 pixels?
+A. forward(100)
+B. backward(-100)
+C. forward(-100)
+- A and B
+
+How far does Tracy need to move from the starting position to reach the end of the right side of the canvas?
+- 200 pixels
+
+If you want Tracy to move forward 100 pixels without making a line, what set of commands should you write?
+- penup()
+forward(100)
