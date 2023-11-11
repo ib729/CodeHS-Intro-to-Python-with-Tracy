@@ -1,6 +1,8 @@
 How would I tell Tracy to move forward 100 pixels? 
 - forward(100)
+
 When using the circle() command, what value do we put inside the parentheses? 
 - The radius of the circle
+
 When Tracy is facing right, from what location does she start drawing her circle? 
 - The bottom of the circle
