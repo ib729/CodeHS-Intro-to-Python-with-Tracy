@@ -1,0 +1,61 @@
+"""
+This code will fill the canvas with light blue circles and highlights.
+
+"""
+speed(0)
+
+# This function will draw one row of 10 circles
+def draw_circle_row():
+    for i in range(10):
+        pendown()
+        begin_fill()
+        color("light blue")
+        circle(20)
+        end_fill()
+        make_highlight()
+        penup()
+        forward(40)
+
+# This function will move Tracy up one row.       
+def move_up_a_row():
+    left(90)
+    forward(40)
+    right(90)
+    backward(400)
+
+# This function will highlight one row of 10 circles   
+def make_highlight():
+    penup()
+    left(90)
+    forward(10)
+    right(90)
+    color("white")
+    circle(10, 90)
+    pendown()
+    circle(10,90)
+    penup()
+    right(90)
+    forward(10)
+    left(90)
+    circle(20,180)
+
+        
+
+#Start position 
+penup()
+setposition(-180,-200)
+
+# Repeat fill circle functions 10 times.
+for i in range(10):
+    draw_circle_row()
+    move_up_a_row()
+
+# Reset to starting position. 
+penup()
+setposition(-180,-200)
+left(90)
+
+#Highlight the circles.
+for i in range(10):
+    make_highlight()
+    move_up_a_row()
