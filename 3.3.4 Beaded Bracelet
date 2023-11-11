@@ -1,0 +1,15 @@
+penup()
+setposition(10,-110)
+pendown()
+
+def draw_necklace():
+    for i in range(36):
+        circle(10)
+        left(10)
+        penup()
+        forward(20)
+        pendown()
+      
+draw_necklace()
+penup()
+setposition(0,0)
