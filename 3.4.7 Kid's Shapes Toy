@@ -1,0 +1,59 @@
+def set_position():
+    penup()
+    setposition(-100,75)
+    pendown()
+
+#make diamond
+
+penup()
+
+setposition(-100,75)
+
+pendown()
+
+begin_fill()
+
+color("red")
+
+circle(60,360,4)
+
+end_fill()
+
+
+#make circle
+
+penup()
+setposition(100,75)
+pendown()
+begin_fill()
+color("blue")
+circle(60)
+end_fill()
+
+
+#make pentagon
+
+penup()
+setposition(100,-75)
+pendown()
+begin_fill()
+color("green")
+circle(60,360,5)
+end_fill()
+
+
+#make half cirlce
+
+penup()
+
+setposition(-100,-75)
+
+pendown()
+
+begin_fill()
+
+color("yellow")
+
+circle(60,180)
+
+end_fill()
