@@ -1,0 +1,18 @@
+How would I change Tracy’s trail to a yellow line with a thickness of 10 pixels?
+- color(“yellow”)
+  pensize(10)
+
+What is true of Tracy’s color command?
+- The color name must be in quotation marks
+
+What is the correct way to draw a circle that is filled in?
+- begin_fill()
+  circle(20)
+  end_fill()
+
+What would be the output of the following command? circle(50,360,5)
+- (Pentagon)
+
+What would be the output of the following command? circle(50,180,3)
+- (Half of a Hexagon)
+
