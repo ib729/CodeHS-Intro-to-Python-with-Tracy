@@ -1,0 +1,8 @@
+Which of the following is NOT a way functions make our code more readable?
+- Each function only contains one command
+
+What two things must be included in your function definition?
+- A function name and commands to be performed
+
+Which is the proper way to call the function three_circles?
+- three_circles()
