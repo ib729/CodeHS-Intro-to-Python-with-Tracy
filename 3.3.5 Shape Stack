@@ -1,0 +1,36 @@
+speed(0)
+penup()
+setposition(0,150)
+
+def circles_for_days():
+    for i in range(1):
+        pendown()
+        circle(25)
+        penup()
+        right(90)
+
+def squares_for_days():
+    for i in range(1):
+        right(90)
+        forward(25)
+        left(90)
+        pendown()
+        forward(50)
+        left(90)
+        forward(50)
+        left(90)
+        forward(50)
+        left(90)
+        forward(50)
+        left(90)
+        
+        
+for i in range(4):
+    circles_for_days()
+    squares_for_days()
+    penup()
+    forward(100)
+    left(90)
+    forward(25)
+    
+setposition(-20,200)
