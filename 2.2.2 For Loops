@@ -1,0 +1,23 @@
+Which of the following is NOT a reason for loops are useful when writing code?
+-Loops let us make shapes of multiple sizes
+
+The following loop draws 3 circles on the screen. If I wanted to alter this loop to draw 10 circles, how many lines would my code be?
+for i in range(3):
+  circle(25)
+  forward(50)
+- 3 lines
+
+If Tracy starts at the left edge of the canvas and moves forward 50 pixels, how many times will this code need to be repeated to have Tracy reach the right edge of the canvas?
+- 8 times
+
+Which lines of the code below will be repeated 4 times?
+penup()
+for i in range(4):
+  pendown()
+  circle(25)
+  forward(50)
+backward(200)
+- 3, 4, and 5
+
+Why do certain words change color in Python?
+- To show that they are recognized as keywords
