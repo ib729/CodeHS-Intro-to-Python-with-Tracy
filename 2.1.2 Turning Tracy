@@ -1,0 +1,15 @@
+Tracy always starts facing which direction?
+- East
+
+If Tracy is facing right, which of the following commands can be used to turn her to face up?
+A. left(90)
+B. turn(up)
+C. right(270)
+D. setposition(90)
+- A and C
+
+If Tracy started facing right, which direction would she be facing after we ran the following code?
+1 left(90)
+2 left(90)
+3 right(90)
+- Up
