@@ -1,0 +1,23 @@
+radius = 25
+def lil_circle():
+    circle(radius)
+lil_circle()
+for i in range(1):
+    penup()
+    right(90)
+    forward(20)
+    left(90)
+    pendown()
+    circle(50)
+    penup()
+    right(90)
+    forward(20)
+    left(90)
+    pendown()
+    circle(75)
+    penup()
+    right(90)
+    forward(20)
+    left(90)
+    pendown()
+    circle(100)
