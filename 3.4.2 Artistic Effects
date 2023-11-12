@@ -11,8 +11,8 @@ What is the correct way to draw a circle that is filled in?
   end_fill()
 
 What would be the output of the following command? circle(50,360,5)
-- (Pentagon)
+- (Pentagon) https://codehs.com/uploads/f79ab9e771192e9f1febf31a35d64e15
 
 What would be the output of the following command? circle(50,180,3)
-- (Half of a Hexagon)
+- (Half of a Hexagon) https://codehs.com/uploads/44e5bafa5d7598602a2f06d4fb593368
 
