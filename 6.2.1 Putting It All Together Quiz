@@ -1,0 +1,145 @@
+When the following for loop is complete, how many spaces will Tracy have moved?
+for i in range(5):
+    forward(10)
+- 50 spaces
+
+Suppose you write a function. How many times can you call the function in your code?
+- As many times as you want
+
+In which of the following situations would it be best to make a function?
+- You want Tracy to draw a blue line, and your program requires lots of blue lines.
+
+Which of the following pieces of code will make Tracy do the following actions three times: go forward, change colors, and then turn around.
+-   forward(30)
+    color("blue")
+    left(180)
+
+    forward(30)
+    color("green")
+    left(180)
+
+    forward(30)
+    color("orange")
+    left(180)
+
+Suppose you want to make Tracy draw a mountain range, like the one shown below, starting from the left side.
+https://s3-us-west-2.amazonaws.com/codehsuploads/e0eeac321e74d6f42df48423dd3f11ff
+Which of the following functions would be the most useful function to write in order to solve this problem?
+- # Has Tracy draw a single triangle 
+  def make_triangle():
+
+Which of the following is NOT a command you can give to Tracy?
+- turn
+
+Which of the statements below is true about indentation in Python?
+- Indentation always matters in Python. Every statement must be aligned correctly.
+
+Which of the following statements are true about for loops?
+A. By default, the range function starts at 0
+B. Using for i in range(4) will result in i taking the values 0, 1, 2, 3, 4
+C. For loops let you repeat something any number of times
+D. Statements in a for loop do not need to be indented
+E. It is not possible to have the range values count 6, 12, 18, 24
+F. It is not possible to have the range values count 1, 2, 4, 8, 16
+- A, C, and F
+
+Which of the following functions is defined correctly?
+- def draw_edge():
+    forward(100)
+    left(90)
+
+Which of the following is NOT a purpose of using functions?
+- Functions let you execute code a fixed number of times.
+
+What is the difference between defining and calling a function?
+- Defining a function means you are teaching the computer a new word. Calling a function means you are commanding the computer to complete defined actions.
+
+What does the number in the parentheses in a forward or backward command represent?
+- How far Tracy is supposed to move
+
+What control structure would be best to use in the following code?
+backward(100)
+right(90)
+backward(100)
+right(90)
+backward(100)
+right(90)
+backward(100)
+right(90)
+- A for loop
+
+Which of the following commands can be used to turn Tracy to face North if she is initially facing South?
+- right(180)
+
+Which program below includes no errors?
+- # Draw a square
+for i in range(4):
+    left(90)
+    forward(90)
+
+Which of the following commands can NOT be used to draw one square?
+- for i in range(4):
+    circle(50, 360, 4)
+
+What shape will be drawn with the following command?
+circle(50, 360, 3)
+- A triangle
+
+How can we use variable to control the size of a circle?
+- radius = 50
+  circle(radius)
+
+Can a user’s input control the size of a circle? If so, how?
+- Yes
+  radius = int(input("Radius: ")) 
+
+  circle(radius)
+
+What is the most effective way to draw three circles in a row of different colors?
+- def draw_circle(color_choice):
+    pendown()
+    color(color_choice)
+    begin_fill()
+    circle(50)
+    end_fill()
+    penup()
+    forward(100)
+draw_circle("red")
+draw_circle("blue")
+draw_circle("yellow")
+
+What will be the output of the following program?
+for i in range(3, 7, 2):
+    circle(50, 360, i)
+- Two shapes- a triangle (3 sides) and a pentagon (5 sides).
+
+What will be the radii of the circles drawn from the following code?
+for i in range(10, 55, 10):
+    circle(i)
+- 10, 20, 30, 40, 50
+
+Which command will Tracy perform when given the following code?
+count = 200
+count = count + 1
+if count % 2 == 0:
+     forward(count)
+backward(count)
+- backward(201)
+
+Which command will Tracy perform when given the following code?
+count = 5
+count = count * 2
+if count < 10:
+     forward(count)
+elif count < 20:
+    backward(count)
+else:
+    circle(count)
+- backward(10)
+
+What will be the output of the following code?
+count = 5
+while count > 0:
+    circle(50)
+    forward(100)
+- An infinite loop will occur
