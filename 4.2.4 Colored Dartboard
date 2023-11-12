@@ -1,0 +1,20 @@
+speed(0) 
+radius = 100
+
+def colored_circle():
+    color_choice = input("What color do you want it to be?: ")
+    color(color_choice)
+    pendown()
+    begin_fill()
+    circle(radius)
+    penup()
+    end_fill()
+ 
+penup()
+setposition(0,-100)
+for i in range(4):
+    colored_circle()
+    left(90)
+    forward(25)
+    right(90)
+    radius = radius -25
