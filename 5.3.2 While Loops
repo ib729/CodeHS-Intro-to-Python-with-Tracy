@@ -1,0 +1,23 @@
+Why do we use while loops?
+- To repeat code when the number of times to repeat is unknown
+
+How is an infinite loop created?
+- By using a condition that will never become false in a while loop 
+
+What will happen when this code is run? 
+1 radius = 20
+2 while radius < 50:
+3     circle(radius)
+- An infinite loop will occur.
+
+What will the output of the following code be? 
+1 distance = 100
+2
+3 while distance >= 10:
+      forward(distance) 
+      left(90) 
+      distance = distance - 10
+- https://codehs.com/uploads/453df51dcd86fadc9341430c45000837
+
+
+
