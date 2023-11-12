@@ -1,0 +1,16 @@
+What will the values of i be at each iteration of the loop below?
+for i in range(2, 10, 2):
+- 2, 4, 6, 8
+
+What will be the output of the code below?
+
+penup()
+backward(150)
+
+for i in range(10, 50 ,10):
+    forward(i * 2)
+    pendown()
+    circle(i)
+    penup()
+- Image 1 (4 Circles, from small to big)
+
