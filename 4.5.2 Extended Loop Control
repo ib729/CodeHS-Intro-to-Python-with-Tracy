@@ -12,5 +12,5 @@ for i in range(10, 50 ,10):
     pendown()
     circle(i)
     penup()
-- Image 1 (4 Circles, from small to big)
+- 4 Circles, from small to big https://codehs.com/uploads/a230852777170b0eca5f77136db0e190
 
