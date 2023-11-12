@@ -1,0 +1,8 @@
+How would I collect a number from the user to use for the radius of a circle?
+- radius = int(input("What is the radius?: "))
+
+What is the correct way to ask a user for a color and store the answer as a variable?
+- user_color = input("Give a color: ")
+
+The name color cannot be used for our variable because:
+- The word color is already used as a Tracy command
