@@ -1,0 +1,61 @@
+speed(0)
+color_value = "red"
+
+def draw_squarerow():
+    for i in range(5):
+        pendown()
+        begin_fill()
+        color("red")
+        for i in range(4):
+            forward(40)
+            left(90)
+        end_fill()
+        penup()
+        forward(40)
+        pendown()
+        begin_fill()
+        color("black")
+        for i in range(4):
+            forward(40)
+            left(90)
+        end_fill()
+        penup()
+        forward(40)
+
+def draw_squarerowalt():
+    for i in range(5):
+        pendown()
+        begin_fill()
+        color("black")
+        for i in range(4):
+            forward(40)
+            left(90)
+        end_fill()
+        penup()
+        forward(40)
+        pendown()
+        begin_fill()
+        color("red")
+        for i in range(4):
+            forward(40)
+            left(90)
+        end_fill()
+        penup()
+        forward(40)
+        
+def up_one():
+    left(90)
+    forward(40)
+    right(90)
+    backward(400)
+ 
+penup()  
+setposition(-200,-200)
+for i in range(5):
+    draw_squarerow()
+    up_one()
+    draw_squarerowalt()
+    up_one()
+penup()
+color("black")
+setposition(-200,-200)
