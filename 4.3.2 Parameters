@@ -1,0 +1,13 @@
+Why are parameters useful?
+- They allow us to tailor functions to be used in multiple situations
+
+How many parameters can we use in each function?
+- As many as we need
+
+What is the best way to write a program that uses parameters to draw a square with sides that are 50 pixels long?
+- def make_square(length):
+  for i in range(4):
+    forward(length)
+    left(90)
+
+make_square(50)
