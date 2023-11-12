@@ -1,0 +1,46 @@
+speed(10)
+
+def draw_redx():
+    penup()
+    pensize(10)
+    color("red")
+    pendown()
+    for i in range(4):
+        left(45)
+        forward(30)
+        backward(30)
+        left(45)
+        setposition(0,0)
+
+def draw_yehorline():
+    penup()
+    pensize(10)
+    color("yellow")
+    pendown()
+    backward(50)
+    forward(100)
+
+def draw_greencheck():
+    penup()
+    pensize(10)
+    color("green")
+    setposition(0,-40)
+    left(135)
+    pendown()
+    forward(50)
+    backward(50)
+    right(90)
+    forward(120)
+    
+
+
+
+
+rating = int(input("Enter a number(1-10): "))
+
+if rating <= 4:
+    draw_redx()
+elif rating <= 7:
+    draw_yehorline()
+else:
+   draw_greencheck()
