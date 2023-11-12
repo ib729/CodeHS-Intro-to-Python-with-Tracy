@@ -1,0 +1,30 @@
+penup()
+backward(175)
+def colorful_balls(color_choice):
+    for i in range(2):
+        color(color_choice)
+        begin_fill()
+        circle(20)
+        end_fill()
+        forward(40)
+        color("green")
+        begin_fill()
+        circle(20)
+        end_fill()
+        forward(40)
+        color("yellow")
+        begin_fill()
+        circle(20)
+        end_fill()
+        forward(40)
+        color("red")
+        begin_fill()
+        circle(20)
+        end_fill()
+        forward(40)
+
+
+
+
+
+colorful_balls("blue")
