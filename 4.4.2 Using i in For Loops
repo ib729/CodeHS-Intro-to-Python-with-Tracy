@@ -1,0 +1,13 @@
+What is the default starting value of i in a for loop?
+- 0
+
+What will the values of i be at each iteration of the loop below? 
+1 for i in range(3):
+- 0, 1, 2
+
+What will happen when the value of i reaches 5 in the loop below?
+1 for i in range(5):
+2     right(90)
+3 
+4 left(i)
+- Tracy will turn 90 degrees to the right
