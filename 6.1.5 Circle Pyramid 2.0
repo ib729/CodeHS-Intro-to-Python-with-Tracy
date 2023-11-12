@@ -1,0 +1,31 @@
+speed(0)
+penup()
+row_num=0
+radius = 25
+
+  
+def move_uprow(num_blocks):
+    x_value = -((num_circles*50)/2) + radius
+    y_value = -200+(50*row_num)
+    setposition(x_value,y_value)
+
+
+def draw_circle(num_blocks):
+    for i in range(num_blocks):
+        pendown()
+        circle(radius)
+        penup()
+        forward(50)
+
+
+num_circles=int(input("How many circles on the bottom row? (8 or less): "))
+
+
+for i in range(num_circles):
+    move_uprow(num_circles)
+    row_num=row_num+1
+    draw_circle(num_circles)
+    num_circles=num_circles-1
+    
+    
+row_value=0
