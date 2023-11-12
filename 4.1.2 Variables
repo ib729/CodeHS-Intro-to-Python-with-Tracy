@@ -1,0 +1,18 @@
+Variables allow us to:
+- Store information to use in our programs
+
+Which program will have Tracy move forward 10, then turn left and move forward 20?
+- distance = 10
+ forward(distance)
+ left(90)
+ distance = distance * 2
+ forward(distance)
+
+Which of the following programs would produce this output? 
+- square_length = 20
+
+  for i in range(4):
+    for i in range(4):
+        forward(square_length)
+        left(90)
+    square_length = square_length * 2
