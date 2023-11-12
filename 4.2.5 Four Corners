@@ -1,0 +1,17 @@
+penup()
+setposition(-200,200)
+square_length = int(input("how long you want it to be?"))
+def draw_a_square():
+    for i in range(4):
+        pendown()
+        forward(square_length)
+        right(90)
+        penup()
+        
+for i in range(2): 
+    draw_a_square()
+    forward(400-square_length)
+setposition(-200,-200)
+for i in range(2):
+    draw_a_square()
+    forward(400-square_length)
