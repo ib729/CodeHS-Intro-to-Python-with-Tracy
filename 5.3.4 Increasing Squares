@@ -1,0 +1,21 @@
+speed(0)
+length = 50
+
+def draw_squares():
+    penup()
+    right(90)
+    forward(length/2)
+    left(90)
+    forward(length/2)
+    pendown()
+    for i in range(4):
+        left(90)
+        forward(length)
+    penup()
+    setposition(0,0)
+
+pendown()
+
+while length <= 350:
+    draw_squares()
+    length = length + 50
