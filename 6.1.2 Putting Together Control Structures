@@ -1,0 +1,20 @@
+Which of the following does the clear command do?
+A. Clears the screen of any markings left by Tracy
+B. Turns Tracy to face right
+C. Sends Tracy to position (0,0)
+- A only
+
+Which of the following statements is true about control structures?
+- If/else statements can be used inside for loops.
+
+What would be the output of the following code? 
+1 count = 10 
+2 Length = 10
+3 
+4 while count > 0:
+5    for i in range(4):
+6        forward(length)
+7        left(90)
+8 Length = length + 10 
+9 count = count - 1
+- https://codehs.com/uploads/7d8f739ee3afd2c792471d9002ca44d0
